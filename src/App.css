@@ -1,0 +1,16 @@
+@import "@fontsource-variable/geist";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Geist Variable", sans-serif;
+    @apply bg-white text-slate-900 antialiased;
+  }
+}

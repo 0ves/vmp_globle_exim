@@ -1,9 +1,9 @@
 
-import spiceImg from "../assets/spices.jpg";
-import charcoal from "../assets/Activated Carbon.jpg";
-import Agricultural  from "../assets/Agricultural Commodities.jpg";
-import Chemicals  from "../assets/Chemicals & Industrial Products.jpg";
-import Packaging  from "../assets/Packaging Materials.jpg";
+import spiceImg from "../assets/Spices.jpg";
+import charcoal from "../assets/Activated_Carbon.jpg";
+import Agricultural  from "../assets/Agricultural_Commodities.jpg";
+import Chemicals  from "../assets/Chemicals_Industrial_Products.jpg";
+import Packaging  from "../assets/Packaging_Materials.jpg";
 
 export const productCategories = [
   {

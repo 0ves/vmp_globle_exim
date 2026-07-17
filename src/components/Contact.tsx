@@ -13,7 +13,7 @@ export default function Contact() {
         <motion.div
           variants={fadeUp}
           initial="hidden"
-          whileInView="whileInView"
+          whileInView="visible"
           viewport={{ once: true }}
           className="mb-20 text-center"
         >
@@ -41,7 +41,7 @@ export default function Contact() {
           <motion.div
             variants={fadeUp}
             initial="hidden"
-            whileInView="whileInView"
+            whileInView="visible"
             viewport={{ once: true }}
             className="rounded-3xl bg-white p-10 shadow-sm"
           >
@@ -120,7 +120,7 @@ export default function Contact() {
             id="contact-form"
             variants={fadeUp}
             initial="hidden"
-            whileInView="whileInView"
+            whileInView="visible"
             viewport={{ once: true }}
             className="rounded-3xl bg-white p-10 shadow-sm scroll-mt-32"
           >

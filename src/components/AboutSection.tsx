@@ -10,7 +10,7 @@ export default function AboutSection() {
         <motion.div
           variants={fadeUp}
           initial="hidden"
-          whileInView="whileInView"
+          whileInView="visible"
           viewport={{ once: true }}
         >
           <span className="mb-5 inline-block text-sm font-semibold uppercase tracking-[0.3em] text-[#C89B3C]">
@@ -44,7 +44,7 @@ export default function AboutSection() {
         <motion.div
           variants={fadeUp}
           initial="hidden"
-          whileInView="whileInView"
+          whileInView="visible"
           viewport={{ once: true }}
           className="grid gap-6"
         >

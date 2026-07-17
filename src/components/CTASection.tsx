@@ -44,7 +44,7 @@ export default function CTASection() {
             <div className="flex flex-col gap-4">
 
               <Link
-                to="/contact"
+                to="/contact#contact-form"
                 className="group inline-flex items-center justify-center gap-2 rounded-xl bg-[#C89B3C] px-8 py-4 font-semibold text-white transition hover:bg-[#B48825]"
               >
                 Start Your Inquiry

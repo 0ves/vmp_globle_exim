@@ -65,10 +65,10 @@ export default function Products() {
                   ))}
                 </div>
 
-                <button className="mt-8 inline-flex items-center gap-2 font-semibold text-[#C89B3C] transition hover:gap-3">
+                {/* <button className="mt-8 inline-flex items-center gap-2 font-semibold text-[#C89B3C] transition hover:gap-3">
                   View Details
                   <ArrowRight size={18} />
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}
